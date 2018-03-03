@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import Header from '../components/Header';
-import Profile from '../components/Profile';
+import ProfileContainer from './ProfileContainer';
 import '../styles/App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Profile/>
+        <ProfileContainer/>
       </div>
     );
   }
