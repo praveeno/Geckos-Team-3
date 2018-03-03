@@ -7,7 +7,7 @@ function Profile(props) {
     <div className="profile">
       <div className="user-info">
         <img src={avatar} alt="Avatar :P"/>
-        <h2>Hi, User!</h2>
+        <h2>Hi, {props.user}!</h2>
       </div>
       <div className="user-posts">
         <div className="user-action">
